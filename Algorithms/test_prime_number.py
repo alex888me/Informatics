@@ -1,7 +1,7 @@
 import unittest
 from prime_number import is_prime
-class TestPrimeMethods(unittest.TestCase):
 
+class TestPrimeMethods(unittest.TestCase):
     def test_is_prime(self):
         # Known prime numbers
         self.assertTrue(is_prime(2))
